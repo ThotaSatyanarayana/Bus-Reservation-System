@@ -1,0 +1,76 @@
+#fieldset {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: sans-serif;
+	border: 5px solid #1F497D;
+	background: #f2f2f2;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+input[type=button] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+input[type=button]:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+}
+
+input[type=button]:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+}
+
+#legend {
+	background: #1F497D;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 22px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 5px #ddd;
+	margin-left: 20px;
+}
+
+input[type=text], [type=file], [type=password] {
+	padding: 7px;
+	border: 2px solid #ccc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#register tr, td {
+	padding: 5px;
+}
+
+.errors {
+	color: red;
+}
